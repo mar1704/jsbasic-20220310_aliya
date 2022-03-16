@@ -1,3 +1,7 @@
 function checkSpam(str) {
-  // ваш код...
+  var strUp=str.toUpperCase();
+  if(~strUp.indexOf('1XBET') || ~strUp.indexOf('XXX')){
+    return true;
+  }
+  else return false;
 }
