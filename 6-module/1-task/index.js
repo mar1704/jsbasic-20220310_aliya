@@ -59,7 +59,6 @@ export default class UserTable {
 
   }
   
-  //getData() {
   get rows() {
     return elem;
   }
