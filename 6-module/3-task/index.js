@@ -36,7 +36,6 @@ export default class Carousel {
       <div class="carousel__inner">${divProduct}</div>
     </div>
     `);
-    console.log(divCarousel_inner);
     return divCarousel_inner;
     
   }
