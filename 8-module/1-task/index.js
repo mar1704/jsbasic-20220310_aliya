@@ -32,11 +32,6 @@ export default class CartIcon {
       this.elem.classList.remove('cart-icon_visible');
     }
   }
- 
-  addEventListeners() {
-    document.addEventListener('scroll', () => this.updatePosition());
-    window.addEventListener('resize', () => this.updatePosition());
-  }
 
   updatePosition() {
 
@@ -83,4 +78,8 @@ export default class CartIcon {
     });
   }
 
+  addEventListeners() {
+    document.addEventListener('scroll', () => this.updatePosition());
+    window.addEventListener('resize', () => this.updatePosition());
+  }
 }
